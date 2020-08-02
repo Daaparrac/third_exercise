@@ -1,10 +1,3 @@
-CREATE TABLE Employee
-(
-    id_employee int(11) NOT NULL PRIMARY KEY,
-    fullname varchar(200) NOT NULL,
-    funcion varchar(200) NOT NULL
-);
-
 create table Employees
 (
     id_employee int(11) not null primary key,
