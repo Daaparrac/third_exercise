@@ -3,8 +3,8 @@ create table Employees
     id_employee int(11) not null primary key,
     fullname varchar(50),
     funcion varchar(50),
-    id_jefe int(11),
-    constraint jefe_fk foreign key (id_jefe) references personal (id_personal)
+    id_boss int(11),
+    constraint jefe_fk foreign key (id_boss) references Employees (id_employee)
 );
 
 INSERT INTO Employee
