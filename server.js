@@ -11,10 +11,6 @@ app.use(
   })
 );
 
-// default route
-app.get("/", function (req, res) {
-  return res.send({ error: true, message: "hello" });
-});
 // connection configurations
 var dbConn = mysql.createConnection({
   host: "localhost",
