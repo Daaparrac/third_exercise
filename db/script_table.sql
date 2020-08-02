@@ -7,8 +7,8 @@ create table Employees
     constraint jefe_fk foreign key (id_boss) references Employees (id_employee)
 );
 
-INSERT INTO Employee
-    (fullname,funcion)
+INSERT INTO Employees
+    (id_employee,fullname,funcion,id_boss)
 VALUES
     (1, 'Empleado1', 'funcion', 1),
     (2, 'Empleado2', 'funcion', 2),
